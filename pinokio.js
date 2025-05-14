@@ -2,7 +2,7 @@ const path = require('path')
 module.exports = {
   version: "3.7",
   title: "DreamO",
-  description: "",
+  description: "DreamO: A Unified Framework for Image Customization",
   icon: "icon.png",
   menu: async (kernel, info) => {
     let installed = info.exists("app/env")
